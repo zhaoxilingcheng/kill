@@ -1,10 +1,13 @@
-package top.lostmylife.kill.common;
+package top.lostmylife.kill.common.code;
+
+import top.lostmylife.kill.common.code.IBusinessCode;
+import top.lostmylife.kill.common.code.KillBusinessCode;
 
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Optional;
 
-import static top.lostmylife.kill.common.KillBusinessCode.ERROR_CODE;
+import static top.lostmylife.kill.common.code.KillBusinessCode.ERROR_CODE;
 
 // 暂时放在这个实体，当多个模块时抽出来
 

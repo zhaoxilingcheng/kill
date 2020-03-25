@@ -3,7 +3,7 @@ package top.lostmylife.kill.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import top.lostmylife.kill.common.Result;
+import top.lostmylife.kill.common.entity.Result;
 import top.lostmylife.kill.entity.UserEntity;
 import top.lostmylife.kill.service.IUserService;
 

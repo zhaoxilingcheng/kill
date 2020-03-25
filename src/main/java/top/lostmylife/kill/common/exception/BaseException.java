@@ -1,7 +1,8 @@
-package top.lostmylife.kill.common;
+package top.lostmylife.kill.common.exception;
 
 import lombok.Getter;
 import lombok.Setter;
+import top.lostmylife.kill.common.entity.Result;
 
 /**
  * @author zl

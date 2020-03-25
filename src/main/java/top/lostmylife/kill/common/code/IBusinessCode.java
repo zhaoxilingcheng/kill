@@ -1,4 +1,4 @@
-package top.lostmylife.kill.common;
+package top.lostmylife.kill.common.code;
 
 /**
  * @author zl

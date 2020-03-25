@@ -1,4 +1,6 @@
-package top.lostmylife.kill.common;
+package top.lostmylife.kill.common.exception;
+
+import top.lostmylife.kill.common.code.IBusinessCode;
 
 /**
  * @author zl

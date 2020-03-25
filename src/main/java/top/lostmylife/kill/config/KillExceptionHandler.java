@@ -4,8 +4,8 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.servlet.NoHandlerFoundException;
-import top.lostmylife.kill.common.BaseException;
-import top.lostmylife.kill.common.Result;
+import top.lostmylife.kill.common.exception.BaseException;
+import top.lostmylife.kill.common.entity.Result;
 
 /**
  * @author zl

@@ -3,7 +3,7 @@ package top.lostmylife.kill.entity;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Getter;
 import lombok.Setter;
-import top.lostmylife.kill.common.BaseEntity;
+import top.lostmylife.kill.common.entity.BaseEntity;
 
 /**
  * @author zl
@@ -13,8 +13,32 @@ import top.lostmylife.kill.common.BaseEntity;
  */
 @Setter
 @Getter
-@TableName("tb_sku_entity")
+@TableName("tb_sku")
 public class SkuEntity extends BaseEntity {
 
+    /**
+     * 商品名称
+     */
+    private String name;
+
+    /**
+     * 剩余库存
+     */
+    private Long stock;
+
+    /**
+     * 冻结库存
+     */
+    private Long frozenStock;
+
+    /**
+     * 总库存
+     */
+    private Long totalStock;
+
+    /**
+     * 已售
+     */
+    private Long sold;
 
 }

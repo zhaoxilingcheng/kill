@@ -1,4 +1,4 @@
-package top.lostmylife.kill.common;
+package top.lostmylife.kill.common.entity;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.serializer.SerializerFeature;

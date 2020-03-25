@@ -3,7 +3,7 @@ package top.lostmylife.kill.entity;
 import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.Getter;
 import lombok.Setter;
-import top.lostmylife.kill.common.BaseEntity;
+import top.lostmylife.kill.common.entity.BaseEntity;
 
 /**
  * @author zl
@@ -13,8 +13,17 @@ import top.lostmylife.kill.common.BaseEntity;
  */
 @Setter
 @Getter
-@TableName("tb_sku_entity")
+@TableName("tb_order")
 public class OrderEntity extends BaseEntity {
 
+    /**
+     * 用户id
+     */
+    private Long userId;
+
+    /**
+     * skuId
+     */
+    private Long skuId;
 
 }
