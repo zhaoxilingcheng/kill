@@ -9,6 +9,6 @@ import top.lostmylife.kill.entity.UserEntity;
  * @copyright www.xiaoniuapp.com Inc. All rights reserved.
  * @since
  */
-public interface IUserService extends IService<UserEntity> {
+public interface ISecKillService extends IService<UserEntity> {
 
 }

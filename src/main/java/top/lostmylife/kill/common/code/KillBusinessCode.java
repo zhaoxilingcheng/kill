@@ -10,7 +10,8 @@ public enum KillBusinessCode implements IBusinessCode {
 
     ERROR_PARAM("10001", "参数错误"),
     ERROR_CODE("10002", "Code不存在"),
-    INVENTORY_SHORTAGE("10003", "库存不足");
+    INVENTORY_SHORTAGE("10003", "库存不足"),
+    LIMIT_CODE("10004", "今天天气挺不错");
 
 
     private static final String HEARD = "kill-";
